@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ThirdFragment">
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/textThreeOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="@string/hello_blank_fragment" />
+
+    <TextView
+        android:id="@+id/textThreeTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        android:text="@string/hello_blank_fragment" />
+
+    <TextView
+        android:id="@+id/textThreeThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:layout_gravity="center"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:backgroundTint="@color/purple_200"
+        android:id="@+id/buttonThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to 5 fragment"
+        android:layout_marginTop="100dp"/>
+
+</LinearLayout>
